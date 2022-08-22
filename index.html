@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Petite calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <h1>CALCULATRICE</h1>
+            <label for="text" class="label1">A</label>
+            <input type="text" id="name">
+            <br><br>
+            <label for="selection" class="label3">Signe</label>
+            <select id="selection">
+                <option value="*">*</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+            </select>
+            <br><br>
+            <label for="text" class="label2">B</label>
+            <input type="text" id="pass">
+        
+            <br>
+            <div>
+                <button class="btn" type="button" id="bouton">Calculer</button>
+            </div>
+            <p>Resultat : <span id="result"></span></p>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
